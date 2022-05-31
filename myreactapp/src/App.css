@@ -1,0 +1,141 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: cornsilk;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.nav_login {
+  float: right;
+}
+
+.nav_logout {
+  float: right;
+}
+.prod_preview_image{
+  width: 300px;
+  height: 300px;
+}
+.prod_preview_div {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding: 2em 0;
+  box-shadow: 0 0 6px 0 rgba(#202024, 0.12);
+  transition: all 0.35s ease;
+}
+.prod_preview_name {
+  text-align: center;
+  font-size: 2em;
+}
+.prod_preview_price {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.loginbody {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_part {
+  width: 100px;
+  height: 100px;
+}
+
+/* .login_ui {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+} */
+.product_view {
+  text-align: center;
+}
+.product_detail {
+  font-size: 2em;
+  padding: 8px;
+}
+.nav_user {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.product_data {
+    align-self: center
+}
+.product_buy_cart{
+    align-self: center;
+    border: double;
+}
+.product_view > div {
+    text-align: left;
+    font-weight: bold;
+}
+
+.prod_cart_data {
+    display:inline-block
+}
+.login_message {
+    background-color: brown;
+    text-align-last: center;
+}
+
+.purchase_success {
+    text-align-last: center;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px; 
+}
+
+#container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding: 2em 0;
+  box-shadow: 0 0 6px 0 rgba(#202024, 0.12);
+  transition: all 0.35s ease;
+}

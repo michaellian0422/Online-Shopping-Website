@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "626d946459dff7f82c54926d"
+  },
+  "name": "iPhone 13",
+  "category": "Phones",
+  "price": 8000,
+  "manufacturer": "Apple Inc.",
+  "productImage": "images/iPhone13.png",
+  "description": "Most advanced dual‑camera system ever."
+},{
+  "_id": {
+    "$oid": "626d9625c57d31ed18728105"
+  },
+  "name": "iPhone 11",
+  "category": "Phones",
+  "price": 8000,
+  "manufacturer": "Apple Inc.",
+  "productImage": "images/iPhone12.png",
+  "description": "iPhone 12 - advanced dual‑camera system ever."
+},{
+  "_id": {
+    "$oid": "624d9625c57d31ed18728105"
+  },
+  "name": "Tablets 12",
+  "category": "Tablets",
+  "price": 8000,
+  "manufacturer": "Apple Inc.",
+  "productImage": "images/iPhone12.png",
+  "description": "iPhone 12 - advanced dual‑camera system ever."
+},{
+  "_id": {
+    "$oid": "62669625c57d31ed18728105"
+  },
+  "name": "Laptop 12",
+  "category": "Laptops",
+  "price": 8000,
+  "manufacturer": "Apple Inc.",
+  "productImage": "images/iPhone12.png",
+  "description": "iPhone 12 - advanced dual‑camera system ever."
+}]

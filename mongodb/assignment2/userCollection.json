@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "626d9625c57d31ed18728106"
+  },
+  "username": "Jack",
+  "password": "654321",
+  "cart": [
+    {
+      "productId": "626d946459dff7f82c54926d",
+      "quantity": 3
+    },
+    {
+      "productId": "624d9625c57d31ed18728105",
+      "quantity": 1
+    },
+    {
+      "productId": "62669625c57d31ed18728105",
+      "quantity": 2
+    }
+  ],
+  "totalnum": 6
+}]
